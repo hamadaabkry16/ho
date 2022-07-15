@@ -7,3 +7,5 @@ def index(request):
     return render(request, "flights/index.html", {
         "flights":flights
     })
+def flight(request, flight_id):
+    pass
